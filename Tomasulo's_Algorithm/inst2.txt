@@ -1,0 +1,7 @@
+store r3, 3(r0)
+load r4, 3(r0)
+ADDI r2, r0, -1
+load r5, 4(r1)
+store r6, 4(r1)
+store r7, 4(r1)
+NOR r2, r1, r2

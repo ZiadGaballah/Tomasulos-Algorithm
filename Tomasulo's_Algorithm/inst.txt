@@ -1,0 +1,7 @@
+load r6, 15(r2)
+load r2, 13(r3)
+load r4, 12(r0)
+mul  r3, r2, r4
+add  r7, r2, r6
+mul  r1, r3, r6
+nor  r6, r7, r2
